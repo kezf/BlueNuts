@@ -1,0 +1,48 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/pref_connect_mode_titles"
+        android:entryValues="@array/pref_connect_mode_values"
+        android:key="@string/pref_key_connect_mode"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_connect_mode"/>
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_default_test_count"
+        android:inputType="number"
+        android:key="@string/pref_key_test_count"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_test_count"/>
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_default_packet_size"
+        android:inputType="number"
+        android:key="@string/pref_key_packet_size"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_packet_size"/>
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_default_send_count"
+        android:inputType="number"
+        android:key="@string/pref_key_send_count"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_send_count"/>
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_default_delay_time"
+        android:inputType="number"
+        android:key="@string/pref_key_delay_time"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_delay_time"/>
+
+</PreferenceScreen>

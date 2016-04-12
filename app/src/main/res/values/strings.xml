@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">BlueNuts</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_test">Test</string>
+    <string name="action_search">Search</string>
+    <string name="discovery_finished">Discovery finished</string>
+    <string name="selected_device_full">Selected device is full</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_version">Version</string>
+
+    <string name="pref_title_mode">Device mode</string>
+    <string name="pref_key_mode">mode</string>
+    <string-array name="pref_mode_titles">
+        <item>Active mode</item>
+        <item>Passive mode</item>
+    </string-array>
+    <string-array name="pref_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string name="pref_title_filters">Device filters(address pattern)</string>
+    <string name="pref_key_filters">filters</string>
+    <string name="pref_default_filters">(00:15:83:|8C:DE:52).+</string>
+
+    <string name="pref_title_pair">Pair</string>
+    <string name="pref_key_pair">pair</string>
+    <string name="pref_descript_pair">Auto pairing before connecting</string>
+
+    <string name="pref_title_pincode">Pin code</string>
+    <string name="pref_key_pincode">pincode</string>
+    <string name="pref_default_pincode">0000</string>
+
+    <string name="pref_title_unpair">Unpair</string>
+    <string name="pref_key_unpair">unpair</string>
+    <string name="pref_descript_unpair">Unpaired after disconnected</string>
+
+    <string name="pref_header_test">Test</string>
+
+    <string name="pref_title_connect_mode">Connect mode</string>
+    <string name="pref_key_connect_mode">connect_mode</string>
+    <string-array name="pref_connect_mode_titles">
+        <item>MODE_SMART</item>
+        <item>MODE_STRATEGY</item>
+        <item>MODE_SECURE_FIXED</item>
+        <item>MODE_INSECURE_FIXED</item>
+        <item>MODE_INSECURE_NOFIXED</item>
+        <item>MODE_SECURE_NOFIXED</item>
+    </string-array>
+    <string-array name="pref_connect_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="pref_title_test_count">Test count(Each mode)</string>
+    <string name="pref_key_test_count">test_count</string>
+    <string name="pref_default_test_count">5</string>
+
+    <string name="pref_title_packet_size">Packet size(KB)</string>
+    <string name="pref_key_packet_size">packet_size</string>
+    <string name="pref_default_packet_size">1</string>
+
+    <string name="pref_title_send_count">Send count</string>
+    <string name="pref_key_send_count">send_count</string>
+    <string name="pref_default_send_count">1</string>
+
+    <string name="pref_title_delay_time">Delay time(s)</string>
+    <string name="pref_key_delay_time">delay_time</string>
+    <string name="pref_default_delay_time">3</string>
+
+</resources>
